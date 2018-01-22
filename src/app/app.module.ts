@@ -23,7 +23,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp, {
+      backButtonText: '返回',
+      modalEnter: 'modal-slide-in',
+      modalLeave: 'modal-slide-out',
+      swipeBackEnabled: true
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
