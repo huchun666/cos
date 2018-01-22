@@ -24,7 +24,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp, {
-      backButtonText: '返回',
+      backButtonText: 'back',
       modalEnter: 'modal-slide-in',
       modalLeave: 'modal-slide-out',
       swipeBackEnabled: true

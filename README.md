@@ -1,1 +1,19 @@
-### :point_right: This starter repo has moved to the [ionic-team/starters](https://github.com/ionic-team/starters/tree/master/ionic-angular/official/tabs) repo! :point_left:
+##first
+```
+npm install
+```
+
+##second
+```
+ionic serve
+```
+
+##third
+```
+click search button
+```
+
+##fourth
+```
+I want to go back to home page by sliding to the right
+```
